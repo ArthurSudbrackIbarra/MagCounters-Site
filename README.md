@@ -1,2 +1,2 @@
 # MagCounters-Site
-Site oficial do MagCounters.
+Official MagCounters Site.
