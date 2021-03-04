@@ -70,6 +70,6 @@ app.get("/api", (req, res) => {
     res.render("api");
 })
 
-app.listen(3000, (error) => {
+app.listen(80, (error) => {
     if(!error) console.log("Server Online!");
 });
