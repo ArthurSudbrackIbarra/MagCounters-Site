@@ -1,0 +1,148 @@
+@font-face{
+	font-family: "PlatNomor";
+	src: url(../Fonts/PlatNomor-WyVnn.ttf) format("truetype");
+	src: url(../Fonts/PlatNomor-eZ2dm.otf);
+}
+
+#img-top-1, #img-top-2, #img-top-3{
+	width: 60%;
+}
+
+#logo{
+	font-family: "PlatNomor";
+	color: #bfd4e9
+}
+
+.navbar-toggler{
+	border: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('../Images/menuIcon.png');
+}
+
+body{
+	background-color: #0f0f32;
+}
+
+nav { 
+	background-color: #4418E8;
+}
+
+#search-container {
+	background: linear-gradient(#4145f2, #697aff);
+}
+
+.btn-aqua-green, .bg-aqua-green{
+	background-color: #16a065;
+}
+
+.btn-aqua-green:hover{
+	background-color: #12734a;
+}
+
+#search-button{
+	background-color: #3618a3;
+	color:  #bfd4e9;
+}
+
+form, #search-button{
+	width: 90%;
+}
+
+#search-button:hover{
+	background-color: #220d6e;
+}
+
+.jumbotron{
+	background-color: #c7d3ff !important;
+}
+
+.golden-gradient{ 
+	background: linear-gradient(#debc3a, #f7f1da);
+}
+
+.silver-gradient{ 
+	background: linear-gradient(#919191, #fffbfa);
+}
+
+.bronze-gradient{ 
+	background: linear-gradient(#874b37, #f5b19f);
+}
+
+.bg-gold{ 
+	background-color: #a89134;
+}
+
+.bg-silver{ 
+	background-color: #a1a09f;
+}
+
+.bg-bronze{
+	background-color: #4f3c2b;
+}
+
+.bg-light-green{ 
+	background-color: #16a065;
+}
+
+.bg-dark-gray{ 
+	background-color: #262525;
+}
+
+.bg-black{ 
+	background-color: black;
+}
+
+.light-green-gradient{ 
+	background: linear-gradient(#16a065, #697aff);
+}
+
+#carouselTop3{
+	cursor: url('../Images/cursorCarousel.png'), auto;
+}
+
+.carousel-caption{
+	bottom: 20%;
+}
+
+.card-group .card, #carouselTop3{
+	border: 2px solid #262525;
+}
+
+.card-group .card img{
+	padding: 1rem;
+	margin-top: 1rem;
+	border: 2px solid #262525;
+	border-radius: 50% !important;
+	background-color: #f8f9fa;
+}
+
+/* In smaller devices, it's interesting for the cards not to be displayed in 3 columns,
+as the information gets too compressed */
+@media (max-width: 789px){
+	.card-group {
+	    display: block;
+	}
+	.card-group .card{
+		border: 2px solid #262525 !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	form, #search-button{
+		width: 70%;
+	}
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  	background-image: none;
+}
+
+footer{
+	font-size: 0.85rem;
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	color: white;
+}

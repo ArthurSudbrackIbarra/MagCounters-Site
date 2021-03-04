@@ -1,0 +1,79 @@
+#apiText{
+    font-size: 6vh;
+}
+
+.card-header{
+    background-color: #3618a3 !important;
+}
+
+#accordion .card-header button{
+    color: #bfd4e9 !important;
+}
+
+h2{
+    color: #1b1b63;
+}
+
+code{
+    color: #3c3c69;
+    font-size: 0.7rem;
+}
+
+.alert-purple{
+    background-color: #d0c7fc;
+}
+
+.highlight{
+    background-color:  #cda0eb;
+    color: black;
+}
+
+.status-success{
+    color: #4ec255;
+    font-weight: bold;
+}
+
+.status-error{
+    color: #d93f3f;
+    font-weight: bold;
+}
+
+#semi-footer{
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .jumbotron{
+        padding: 0px !important;
+    }
+    #apiText{
+        font-size: 4.5vh;
+    }
+    #semi-footer{
+        margin-top: 0px !important;
+        border-radius: 0px !important;
+        border: 1px solid white;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #apiText{
+        font-size: 4.5vh;
+    }
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #apiText{
+        font-size: 5vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #apiText{
+        font-size: 4vh;
+    }
+}

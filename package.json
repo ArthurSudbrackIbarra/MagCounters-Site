@@ -1,0 +1,34 @@
+{
+  "name": "magcounters",
+  "version": "1.0.0",
+  "description": "Find Out The Best Counters Against Your Pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pokemon",
+    "Pokemons",
+    "Counter",
+    "Counters",
+    "Best",
+    "Against",
+    "Matchups",
+    "Offensive",
+    "Defensive",
+    "Calculator",
+    "Sword",
+    "and",
+    "Shield",
+    "MagCounters"
+  ],
+  "author": "Arthur Sudbrack Ibarra",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
