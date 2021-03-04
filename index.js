@@ -27,9 +27,9 @@ app.get("/", async (req, res) => {
       
     let {pokemon, option, allows} = req.query;
 
-    let routeCounters = "http://localhost:8080/api/counters"
-    let routePokemon = "http://localhost:8080/api/pokemon";
-    let routeAllPokemons = "http://localhost:8080/api/pokemons";
+    let routeCounters = "http://localhost/api/counters"
+    let routePokemon = "http://localhost/api/pokemon";
+    let routeAllPokemons = "http://localhost/api/pokemons";
 
     let paramPokemon = pokemon == undefined ? "abomasnow" : pokemon;
     let paramOption = option == undefined ? "offensive" : option;
